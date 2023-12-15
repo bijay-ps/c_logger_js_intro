@@ -49,3 +49,16 @@ function greet() {
   console.log("Namaste!!");
 }
 greet();
+
+let aNum = 7;
+console.log("Line 54: ", aNum);
+aNum = "Bijay"; // Implicit
+// aNum = String("Bijay"); // Explicit
+console.log("line 56: ", aNum);
+
+// const userInput = prompt("Enter a number: ");
+// console.log(userInput);
+
+// alert("You are Awesome");
+
+// alert and prompt will work in Browser env only
