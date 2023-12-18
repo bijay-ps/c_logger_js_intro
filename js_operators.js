@@ -87,3 +87,22 @@ let myPermissions = 0;
 myPermissions = read & execute;
 
 console.log(myPermissions | write);
+
+function add(num1, num2) {
+  const res = num1 + num2;
+  console.log("dfds: ", res);
+}
+
+add(-98, 456);
+add(124, 5630);
+
+add(-98784, 456);
+
+let aVar = "45.12";
+console.log(Number(aVar));
+
+let bVar = 3.14;
+let cVar = 12;
+console.log("Line 106: ", parseInt(bVar));
+let returendVal = parseFloat(aVar);
+console.log("Line 108: ", returendVal, typeof returendVal);
