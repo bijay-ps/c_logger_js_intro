@@ -7,35 +7,35 @@
 
 // // if statement
 
-// if (age > 18 && age < 27) {
-//   // Should ultimately be resolved to boolen
-//   // Whatever code goes here, is only executed if the condition is true
-//   let allowedToVoted = "Yes";
-//   console.log("Line 14:", allowedToVoted);
-// }
+if (age > 18 && age < 27) {
+  // Should ultimately be resolved to boolen
+  // Whatever code goes here, is only executed if the condition is true
+  let allowedToVoted = "Yes";
+  console.log("Line 14:", allowedToVoted);
+}
 
 // // console.log(allowedToVoted); // Error, example of block scoped variables
 
 // let underAge = 97;
-// if (underAge > 18 && underAge < 27) {
-//   // Should ultimately be resolved to boolen
-//   // Whatever code goes here, is only executed if the condition is true
-//   let allowedToVoted = "Yes";
-//   console.log("Line 14:", allowedToVoted);
-// } else {
-//   console.log("Age is not within the limits!!");
-// }
+if (underAge > 18 && underAge < 27) {
+  // Should ultimately be resolved to boolen
+  // Whatever code goes here, is only executed if the condition is true
+  let allowedToVoted = "Yes";
+  console.log("Line 14:", allowedToVoted);
+} else {
+  console.log("Age is not within the limits!!");
+}
 
 // let percentile = 85;
 // let isVIP = true;
 
-// if (percentile > 90) {
-//   console.log("Admitted to college");
-// } else if (isVIP) {
-//   console.log("You are admitted 👏🏼");
-// } else {
-//   console.log("No Admission!!, Try next year");
-// }
+if (percentile > 90) {
+  console.log("Admitted to college");
+} else if (isVIP) {
+  console.log("You are admitted 👏🏼");
+} else {
+  console.log("No Admission!!, Try next year");
+}
 
 // if (percentile > 90 || isVIP) {
 //   console.log("Admitted to college");
@@ -126,6 +126,7 @@ const result = multiplyTwoNums(i, j); // Function was called
 
 const result2 = multiplyTwoNums(-67, 98);
 
+console.log(multiplyTwoNums(15, 45));
 console.log("Line 129: ", result);
 
 console.log("Line 131: ", result2);
