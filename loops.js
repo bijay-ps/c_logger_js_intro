@@ -1,7 +1,7 @@
 // Basic for loop
-// for (let i = 1; i <= 10; i++) {
-//   console.log(i);
-// }
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
 
 // for(; ;) {
 
@@ -9,15 +9,16 @@
 const arr = ["Bijay", 1, 2, "😀"];
 arr.isGradute = false;
 
-// console.log(arr[3]);
-// for (let i = 0; i < arr.length; i++) {
-//   console.log(arr[i]);
-// }
+console.log(arr[3]);
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
 
 // forEach: It only works with Arrays
-// arr.forEach(function (x) { // for each element of the array execute the function passed to the forEach
-//   console.log(x);
-// });
+arr.forEach(function (x) {
+  // for each element of the array execute the function passed to the forEach
+  console.log(x);
+});
 
 // for in loop: it only works with Objects
 const emp = {
@@ -46,9 +47,9 @@ for (let attr in emp) {
 // }
 
 // for of loop: Used for Arrays (iterables)
-// for (let key of arr) {
-//   console.log("Line 47: ", key);
-// }
+for (let key of arr) {
+  console.log("Line 47: ", key);
+}
 
 // While loop
 let i = 1;
