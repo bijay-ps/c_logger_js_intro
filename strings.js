@@ -1,4 +1,4 @@
-let fName = "Bijay";
+let fName = "Bijay Prakash";
 // console.log(fName[0]);
 fName[0] = "A";
 // fName = "Jay";
